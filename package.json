@@ -1,7 +1,7 @@
 {
-  "name": "@lachlanjc/theme-starter",
+  "name": "@abby9664/droughtcards",
   "version": "0.0.1",
-  "author": "Lachlan Campbell (https://lachlanjc.com) <lachlanjc@hey.com>",
+  "author": "Avi Wong",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -17,6 +17,7 @@
     "next": "^10.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "theme-ui": "^0.7.5"
   }
 }

@@ -4,7 +4,12 @@ import { Container, Grid, Heading } from 'theme-ui'
 export default function HomePage({ data }) {
 	return (
 		<Container>
-		<Heading variant="ultratitle">Droughts</Heading>
+		<Heading variant="ultratitle" sx={{
+			mb: [3],
+		}}><br /> Drought Cards!</Heading>
+		<Heading sx={{
+			fontWeight: 'normal',
+		}}>For just <b>$0.99</b>, get this starter pack of 7:</Heading>
 		<br />
 		<Grid columns={[null, 1, 2]} gap={[3, 4]} sx={{ mb: [3, 4] }}>
               {data.map(card => (
