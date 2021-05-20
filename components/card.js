@@ -19,6 +19,7 @@ const TradingCard = ({
 			border: "20px solid",
 			borderColor: 'primary',
 			background: toggle ? 'white' : `url(${image[0]})`,
+			backgroundRepeat: 'no-repeat',
 			transform: `rotate(${Math.random() * 6 - 3}deg)`,
 			color: 'dork',
 			minHeight: '60vh',
